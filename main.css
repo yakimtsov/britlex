@@ -40,7 +40,6 @@ body{
 a{
     text-decoration: none;
 }
-<<<<<<< HEAD
 button{
     cursor: pointer;
 }
@@ -122,7 +121,7 @@ button{
 }
 .skills__blocks-text4{
     max-width: 328px;
-=======
+}
 .header__button{
     border: 2px solid #263238;
     box-sizing: border-box;
@@ -132,14 +131,11 @@ button{
     padding: 5px 22px;
     background-color: white;
 }
-
 .learn__container{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-
 .learn__content-title{
     font-weight: 600;
     font-size: 64px;
@@ -147,11 +143,9 @@ button{
     max-width: 450px;
     display: flex;
 }
-
 .learn__content-img{
     margin-top: 70px;
 }
-
 .learn__content-pretitle{
     font-size: 24px;
     line-height: 36px;
@@ -159,7 +153,6 @@ button{
     max-width: 521px;
     margin-top: 20px;
 }
-
 .learn__content-button{
     background: #263238;
     border-radius: 15px;
@@ -168,5 +161,4 @@ button{
     color: #FFFFFF;
     padding: 32px 117px;
     margin-top: 50px;
->>>>>>> 2a5519f64cbc7b7f99570ee03f52c640186c147e
 }
