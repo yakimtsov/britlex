@@ -1,0 +1,15 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+}
