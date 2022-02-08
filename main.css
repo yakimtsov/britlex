@@ -50,11 +50,10 @@ button{
     line-height: 80px;
     color: #000000;
     text-align: center;
+    padding: 100px 0;
 }
 .skills__blocks{
-    display: grid; 
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    display: grid;
     gap: 10px 10px; 
     grid-template-areas: 
         "skills__blocks-container1 skills__blocks-container2 skills__blocks-container3"
@@ -64,6 +63,7 @@ button{
 .skills__blocks-container1{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: flex-start;
     background: #F5F5F5;
     border-radius: 10px;
@@ -76,6 +76,11 @@ button{
     border-radius: 5px;
     border: 1px solid #263238;
     padding: 17px 63px;
+}
+.button:hover{
+    color: #263238;
+    background: #FFFFFF;
+    transition: 1s;
 }
 .h3-title{
     font-weight: 600;
@@ -131,14 +136,11 @@ button{
     padding: 5px 22px;
     background-color: white;
 }
-
 .learn__container{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-
 .learn__content-title{
     font-weight: 600;
     font-size: 64px;
@@ -146,11 +148,9 @@ button{
     max-width: 450px;
     display: flex;
 }
-
 .learn__content-img{
     margin-top: 70px;
 }
-
 .learn__content-pretitle{
     font-size: 24px;
     line-height: 36px;
@@ -158,7 +158,6 @@ button{
     max-width: 521px;
     margin-top: 20px;
 }
-
 .learn__content-button{
     background: #263238;
     border-radius: 15px;
