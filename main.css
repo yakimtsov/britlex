@@ -167,6 +167,57 @@ button{
 }
 /* Anna's line|> */
 
+/* .about__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+.about__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 250px 0;
+}
+.about__content-title{
+    font-size: 48px;
+    line-height: 80px;
+    color: #000000;
+}
+
+.about__content-pretitle{
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 635px;
+    color: #8F95A5;
+    margin-top: 40px;
+}
+
+.about__content-propose{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.about__content-propose-numbers{
+    font-size: 48px;
+    line-height: 80px;
+    color: #2A3246;
+    margin-top: 60px;
+}
+
+.about__content-propose-opportunity{
+    font-size: 20px;
+    line-height: 30px;
+    color: #8F95A5;
+}
+
+.about__content-propose-image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /* Andrew line|> */
 .pricing-title{
     font-weight: 600;
