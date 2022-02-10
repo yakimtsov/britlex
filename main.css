@@ -1,8 +1,7 @@
 *{
     font-family: 'Poppins', sans-serif;
-}
-body{
     box-sizing: border-box;
+
 }
 .container{
     max-width: 1350px;
@@ -28,7 +27,6 @@ body{
 
 .header-link{
     display: inline-block;
-    justify-content: space-between;
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
@@ -36,7 +34,6 @@ body{
     margin-right: 20px;
     color: #263238;
 }
-
 a{
     text-decoration: none;
 }
@@ -44,7 +41,7 @@ button{
     cursor: pointer;
 }
 
-.skills__title{
+.skills__title, .pricing-title{
     font-weight: 600;
     font-size: 48px;
     line-height: 80px;
@@ -166,4 +163,78 @@ button{
     color: #FFFFFF;
     padding: 32px 117px;
     margin-top: 50px;
+}
+/* Anna's line|> */
+
+/* Andrew line|> */
+.pricing-title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: #000000;
+}
+.pricing__section{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.pricing__block{
+    max-width: 380px;
+}
+.pricing__block-title{
+    font-size: 30px;
+    line-height: 48px;
+}
+.pricing__block-pretitle{
+    font-size: 20px;
+    line-height: 30px;
+}
+.pricing__block-price-value{
+    font-size: 30px;
+    line-height: 45px;
+    color: #263238;
+    background: #EEEEEE;
+    border-radius: 5px;
+    max-width: 240px;
+    padding-left: 12px;
+}
+.pricing__block-price-value>span{
+    font-size: 18px;
+    line-height: 27px;
+    color: #546269;
+}
+
+.contact__section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0 133px;
+}
+.contact__section-content-title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: #000000;
+}
+.contact__section-content-pretitle{
+    font-size: 20px;
+    line-height: 30px;
+    color: #8F95A5;
+    max-width: 770px;
+}
+.contact__section-content-input{
+    display: flex;
+    align-items: center;
+}
+.contact__section-content-input-block{
+    border: 1px solid #8F95A5;
+    border-radius: 10px;
+    padding: 26px 280px 30px 33px;
+}
+.contact-button{
+    margin-left: 15px;
+    padding: 24px 81px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
 }
